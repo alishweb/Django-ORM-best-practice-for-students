@@ -4,10 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-mysqlclient = "*"
-faker = "*"
-factory-boy = "*"
+django = "==5.0.7"
+mysqlclient = "==2.2.4"
+faker = "==26.0.0"
+factory-boy = "==3.3.0"
+asgiref = "==3.8.1"
+django-debug-toolbar = "==4.4.6"
+python-dateutil = "==2.9.0.post0"
+six = "==1.16.0"
+sqlparse = "==0.5.1"
+tzdata = "==2024.1"
 
 [dev-packages]
 

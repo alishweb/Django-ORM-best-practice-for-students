@@ -33,4 +33,5 @@
         $ python manage.py runserver
 
 
+pipenv install -r requirements.txt
 
