@@ -50,3 +50,6 @@
 
         $ python manage.py migrate
 
+- Creating fake data with faker and factory boy
+
+        $ python manage.py setup_fake_data
