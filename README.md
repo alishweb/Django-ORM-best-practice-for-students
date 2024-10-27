@@ -26,12 +26,24 @@
 
 - Create an app
 
-        $ python manage.py app_name
+        $ python manage.py startapp app_name
 
 - run server
 
         $ python manage.py runserver
 
 
-pipenv install -r requirements.txt
+## Database creation and filling commands
+
+- create database
+
+        $
+
+- make migrations command
+
+        $ python manage.py makemigrations
+
+- migrate command
+
+        $ python manage.py migrate
 
