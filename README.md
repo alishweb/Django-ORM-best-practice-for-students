@@ -36,14 +36,17 @@
 ## Database creation and filling commands
 
 - create database
+#### first open powershell and write this code:
+        $ mysql -u root -p
+        $ CREATE DATABASE mystore;
 
-        $
+-- Then go to the project settings and put your mysql password in the mypassword field
 
 - make migrations command
 
         $ python manage.py makemigrations
 
-- migrate command
+- migrate command 
 
         $ python manage.py migrate
 
