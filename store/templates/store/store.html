@@ -21,6 +21,19 @@
         <div class="products">
             <!-- Product items will be inserted here -->
         </div>
+        
+        {% comment %} {% for orderitem in orderitems %}
+            <h3> status : {{orderitem.order.status}} </h3>
+            <p> quantity : {{orderitem.quantity}} </p>
+            <p> -------------- </p>
+        {% endfor %} {% endcomment %}
+        
+        {% for product in products %}
+            <p> name: {{product.name}} </p>
+            {% for comment in product.comments.all %}
+                <p> comment: {{comment.id}} </p>
+            {% endfor %}
+        {% endfor %}
     </main>
     <footer>
         <p>&copy; 2023 Store. All rights reserved.</p>
